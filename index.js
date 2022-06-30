@@ -20,6 +20,5 @@ const YAML = require('yamljs');
         tag: input[0]['type'],
     };
     console.log(YAML.stringify(json, 4));
-    response.textContent = YAML.stringify(json, 4);
-
+    response.innerHTML = YAML.stringify(json, 4);
 })();

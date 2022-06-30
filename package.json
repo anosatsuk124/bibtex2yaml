@@ -1,0 +1,17 @@
+{
+  "name": "bibtex2yaml",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Satsuki Akiba",
+  "license": "MIT",
+  "scripts": {
+    "build": "browserify index.js -o docs/index.js"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0"
+  },
+  "dependencies": {
+    "citation-js": "^0.6.3",
+    "yamljs": "^0.3.0"
+  }
+}
